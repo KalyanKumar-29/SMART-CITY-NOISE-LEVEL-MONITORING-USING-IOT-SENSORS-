@@ -1,0 +1,51 @@
+# ─── Arduino Build Artifacts ──────────────────────────────────────────────────
+build/
+*.elf
+*.hex
+*.map
+*.o
+*.d
+*.a
+
+# ─── Arduino IDE Files ────────────────────────────────────────────────────────
+*.bak
+*.tmp
+/libraries/
+
+# ─── IDE / Editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Windows ─────────────────────────────────────────────────────────────────
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ─── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ─── Linux ───────────────────────────────────────────────────────────────────
+*~
+.fuse_hidden*
+
+# ─── Logs ────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Sensitive Configuration ──────────────────────────────────────────────────
+# ⚠️ NEVER commit files containing real Wi-Fi passwords or API keys
+config.h
+secrets.h
+credentials.h
+.env
+
+# ─── Compiled Binaries ────────────────────────────────────────────────────────
+*.bin
+*.out
